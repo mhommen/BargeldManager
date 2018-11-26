@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Cash Manager</string>
     <string name="add">Add</string>
+    <string name="overview">Overview</string>
+    <string name="categories">Categories</string>
+    <string name="earning">Earning</string>
+    <string name="issue">Issue</string>
+    <string name="total">Total</string>
 </resources>

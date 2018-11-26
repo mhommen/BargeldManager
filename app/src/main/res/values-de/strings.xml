@@ -2,4 +2,9 @@
 <resources>
     <string name="app_name">Bargeldmanager</string>
     <string name="add">Hinzufuegen</string>
+    <string name="overview">Übersicht</string>
+    <string name="categories">Kategorien</string>
+    <string name="earning">Einnahme</string>
+    <string name="issue">Ausgabe</string>
+    <string name="total">Gesamt</string>
 </resources>
