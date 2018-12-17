@@ -6,4 +6,7 @@
     <string name="earning">Earning</string>
     <string name="issue">Issue</string>
     <string name="total">Total</string>
+    <string name="title_activity_category">Categories</string>
+    <string name="menu_item_categories">Manager Categories</string>
+    <string name="menu_item_clear">Clear Data</string>
 </resources>

@@ -7,4 +7,7 @@
     <string name="earning">Einnahme</string>
     <string name="issue">Ausgabe</string>
     <string name="total">Gesamt</string>
+    <string name="title_activity_category">Kategorien</string>
+    <string name="menu_item_categories">Kategorien Verwalten</string>
+    <string name="menu_item_clear">Daten Löschen</string>
 </resources>
