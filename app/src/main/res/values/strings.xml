@@ -9,4 +9,9 @@
     <string name="title_activity_category">Categories</string>
     <string name="menu_item_categories">Manager Categories</string>
     <string name="menu_item_clear">Clear Data</string>
+    <string name="msg_add_earning">Record your earning.</string>
+    <string name="msg_add_issue">Record your issue.</string>
+    <string name="msg_invalid_input">Invalid Input</string>
+    <string name="add_category">Add Category</string>
+    <string name="msg_add_category">Please enter a name for the new category.</string>
 </resources>

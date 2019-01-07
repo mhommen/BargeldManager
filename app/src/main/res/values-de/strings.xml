@@ -10,4 +10,9 @@
     <string name="title_activity_category">Kategorien</string>
     <string name="menu_item_categories">Kategorien Verwalten</string>
     <string name="menu_item_clear">Daten Löschen</string>
+    <string name="msg_add_earning">Erfassen Sie Ihre Einnahme.</string>
+    <string name="msg_add_issue">Erfassen Sie Ihre Ausgabe.</string>
+    <string name="msg_invalid_input">Eingabe ungültig</string>
+    <string name="add_category">Kategorie hinzufügen</string>
+    <string name="msg_add_category">Bitte geben Sie den Namen der neuen Kategorie ein.</string>
 </resources>
