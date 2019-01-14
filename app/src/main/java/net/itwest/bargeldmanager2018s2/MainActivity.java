@@ -165,12 +165,26 @@ public class MainActivity extends Activity
         return  categoryVals;
     }
 
+    public boolean CategoriesCheck ()
+    {
+        final DbContract.DbHelper db = new DbContract.DbHelper(this);
+        List<Category> categories = db.getCategories();
+        // wenn keine Kategorien vorhanden, dann toast anzeigen und aus Methode rausgehen
+        return categories.size() != 0;
+    }
+
     public void btnEarningClicked(View view) {
-        EntryDialog(true);
+        if (CategoriesCheck())
+            EntryDialog(true);
+        else
+            Toast.makeText(MainActivity.this, "Bitte Kategorien anlegen", Toast.LENGTH_LONG).show();
     }
 
     public void btnIssueClicked(View view) {
-        EntryDialog(false);
+        if (CategoriesCheck())
+            EntryDialog(false);
+        else
+            Toast.makeText(MainActivity.this, "Bitte Kategorien anlegen", Toast.LENGTH_LONG).show();
     }
 
     private void EntryDialog(final boolean isEarning)
@@ -178,7 +192,7 @@ public class MainActivity extends Activity
         final DbContract.DbHelper db = new DbContract.DbHelper(this);
         List<Category> categories = db.getCategories();
 
-        int idTitle = isEarning ? R.string.earning : R.string.issue;
+         int idTitle = isEarning ? R.string.earning : R.string.issue;
         int idMessage = isEarning ? R.string.msg_add_earning : R.string.msg_add_issue;
 
         new EntryDialog(this, idTitle, idMessage, categories, new EntryDialog.IInputDialog() {
