@@ -35,7 +35,7 @@ public class CategoryAdapter extends ArrayAdapter<Category> {
         if (category != null) {
             TextView textView = (TextView) convertView.findViewById(android.R.id.text1);
             if (textView != null) {
-                textView.setText(category.getTitle());
+                textView.setText(category.toString());
             }
         }
 

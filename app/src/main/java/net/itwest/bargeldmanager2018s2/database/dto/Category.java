@@ -14,7 +14,5 @@ public class Category {
     public void setTitle(String title) { this._title = title; }
 
     @Override
-    public String toString() {
-        return getTitle();
-    }
+    public String toString() { return getTitle(); }
 }
